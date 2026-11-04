@@ -1,0 +1,9 @@
+Package: com.example.versionpage
+Name: VersionPage
+Version: 1.2.0
+Architecture: iphoneos-arm
+Description: iOS 16-style tappable Software Version row in Settings > General > About, with editable version/build and update notes.
+Maintainer: you
+Author: you
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
