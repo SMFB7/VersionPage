@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>entry</key>
+	<dict>
+		<key>cell</key>
+		<string>PSLinkCell</string>
+		<key>label</key>
+		<string>VersionPage</string>
+	</dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Displayed values</string>
+			<key>footerText</key>
+			<string>Leave a field empty to show the real value. These apply to both the Software Version row and its page. Update notes are looked up for the displayed version.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>label</key>
+			<string>Version</string>
+			<key>placeholder</key>
+			<string>Version (e.g. 15.8.8)</string>
+			<key>key</key>
+			<string>version</string>
+			<key>default</key>
+			<string></string>
+			<key>defaults</key>
+			<string>com.example.versionpage</string>
+			<key>noAutoCorrect</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSEditTextCell</string>
+			<key>label</key>
+			<string>Build</string>
+			<key>placeholder</key>
+			<string>Build (e.g. 19H394)</string>
+			<key>key</key>
+			<string>build</string>
+			<key>default</key>
+			<string></string>
+			<key>defaults</key>
+			<string>com.example.versionpage</string>
+			<key>noAutoCorrect</key>
+			<true/>
+		</dict>
+	</array>
+</dict>
+</plist>
