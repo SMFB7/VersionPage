@@ -1,2 +1,2 @@
 # VersionPage
-Vibecoded; expandable Software Version row in About, similar to iOS 16
+Vibecoded via Claude Sonnet 5.5; expandable Software Version row in About, similar to iOS 16
